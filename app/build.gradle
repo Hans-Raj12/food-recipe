@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android'
     id 'kotlin-kapt'
+
 }
 
 android {
@@ -35,6 +36,7 @@ android {
 
 dependencies {
 
+
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.13.2'
@@ -54,10 +56,10 @@ dependencies {
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
     //crop image library
-    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+//    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
 
     //easy permission
-    implementation 'pub.devrel:easypermission:3.0.0'
+//    implementation 'pub.devrel:easypermission:3.0.0'
 
     //coroutines core
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1'
